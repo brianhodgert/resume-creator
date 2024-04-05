@@ -1,19 +1,19 @@
 
 const resume = {
-    personName: "Brian Hodgert".toUpperCase(),
-    career: "Full Stack Engineer",
-    description: "I like ducks",
+    personName: 'Brian Hodgert'.toUpperCase(),
+    career: 'Full Stack Engineer',
+    description: 'I like ducks',
     interests: ['philosophy', 'coding', 'design'],
     experience: [
         { company: 'SBGH', role: 'Electronic Technologist', description: 'Fix Electronics' },
-        { company: 'HSC', role: 'Biomedical Technologist', description: "Fix Medical Equipment" },
-        { company: 'Manco Controls', role: 'Instrumentation Technician', description: "Calibrate sensors" }
+        { company: 'HSC', role: 'Biomedical Technologist', description: 'Fix Medical Equipment' },
+        { company: 'Manco Controls', role: 'Instrumentation Technician', description: 'Calibrate sensors' }
     ],
     skills: [
-        { skill: "coding", cool: true },
-        { skill: "sophistry", cool: false },
-        { skill: "troubleshooting", cool: false },
-        { skill: "renovations", cool: false }
+        { skill: 'coding', cool: true },
+        { skill: 'sophistry', cool: false },
+        { skill: 'troubleshooting', cool: false },
+        { skill: 'renovations', cool: false }
     ],
     displayInterests: interests => {
         let interestLines = 'My interests: ' + '\n'
